@@ -1057,22 +1057,6 @@ body {
   opacity:1;
 }
 
-/* =====================================
-   TABLET
-===================================== */
-
-@media(max-width:991px){
-
-  .gx-grid{
-    grid-template-columns:repeat(2,1fr);
-    grid-auto-rows:220px;
-  }
-
-  .gx-title{
-    font-size:34px;
-  }
-
-}
 
 /* =====================================
    MOBILE
@@ -1247,25 +1231,6 @@ body {
   transform:translateY(-5px);
 }
 
-/* =========================
-   TABLET
-========================= */
-
-@media(max-width:991px){
-
-  .stats-grid{
-    grid-template-columns:repeat(2,1fr);
-  }
-
-  .feature-row{
-    grid-template-columns:repeat(2,1fr);
-  }
-
-  .stats-heading h2{
-    font-size:42px;
-  }
-
-}
 
 /* =========================
    MOBILE
@@ -1408,21 +1373,7 @@ body {
   transform:translateY(-5px);
 }
 
-/* =========================
-   TABLET
-========================= */
 
-@media(max-width:991px){
-
-  .content-top h1{
-    font-size:40px;
-  }
-
-  .content-top p{
-    font-size:16px;
-  }
-
-}
 
 /* =========================
    MOBILE
@@ -2212,4 +2163,57 @@ textarea {
     font-size: 11px !important;
   }
 
+}
+
+
+
+
+
+
+
+
+/* =====================================
+   🔥 FIX RIGHT SIDE EXTRA SPACE
+===================================== */
+
+html, body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+}
+
+/* Prevent any element from breaking layout */
+* {
+  max-width: 100% !important;
+}
+
+/* Fix hero content overflow */
+.content {
+  left: 15px !important;
+  right: 15px !important;
+  max-width: calc(100% - 30px) !important;
+}
+
+/* Fix slider */
+.hero,
+.hero-slider,
+.slide {
+  width: 100% !important;
+  overflow: hidden !important;
+}
+
+/* Fix images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 🔥 VERY IMPORTANT: Fix navbar mobile menu overflow */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    position: absolute;
+    left: 0 !important;
+    transform: none !important;
+    width: 100% !important;
+  }
 }
