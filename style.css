@@ -2217,3 +2217,31 @@ img {
     width: 100% !important;
   }
 }
+
+
+
+
+
+.scroll-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(213, 124, 28);   /* 🔥 Orange color */
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  z-index: 9999;
+  transition: 0.3s;
+}
+
+.scroll-top-btn:hover {
+  background-color: #ff7a00; /* darker orange on hover */
+  transform: translateY(-3px);
+}
