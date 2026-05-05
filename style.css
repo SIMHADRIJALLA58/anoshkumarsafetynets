@@ -973,7 +973,7 @@ body {
 
 .gx-gallery{
   padding:80px 20px;
-  background:#f8fafc;
+  background:#b2b9bf;
 }
 
 .gx-container{
@@ -1420,7 +1420,7 @@ body {
 
 .review-section {
   padding: 80px 5%;
-  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+  background: linear-gradient(135deg, #6777a7, #52c2b5);
   font-family: 'Segoe UI', sans-serif;
 }
 
@@ -1455,7 +1455,7 @@ body {
   min-width: 280px;
   padding: 25px;
   border-radius: 16px;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(220, 227, 224, 0.7);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255,255,255,0.3);
   box-shadow: 0 8px 25px rgba(0,0,0,0.05);
@@ -1469,7 +1469,7 @@ body {
 
 /* STARS */
 .stars {
-  color: #fbbf24;
+  color: #f8b50a;
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -2244,4 +2244,12 @@ img {
 .scroll-top-btn:hover {
   background-color: #ff7a00; /* darker orange on hover */
   transform: translateY(-3px);
+}
+
+
+#id1{
+  background-color: rgb(213, 190, 132);
+}
+#id2{
+  background-color: rgb(239, 240, 240);
 }
