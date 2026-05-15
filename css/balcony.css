@@ -1,0 +1,328 @@
+/* =====================================
+   APARTMENT SAFETY SECTION
+===================================== */
+
+.apartment-section{
+  padding:90px 20px;
+  background:#f4f9f7;
+  overflow:hidden;
+}
+
+.apartment-container{
+  max-width:1250px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:60px;
+  align-items:center;
+}
+
+/* IMAGE */
+
+.apartment-image{
+  position:relative;
+}
+
+.apartment-image img{
+  width:100%;
+  height:500px;
+  object-fit:cover;
+  border-radius:30px;
+  box-shadow:0 15px 40px rgba(0,0,0,0.12);
+}
+
+/* CONTENT */
+
+.apartment-content{
+  position:relative;
+}
+
+.apartment-tag{
+  display:inline-block;
+  background:#dcfce7;
+  color:#15803d;
+  padding:10px 18px;
+  border-radius:50px;
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:2px;
+  margin-bottom:22px;
+}
+
+.apartment-content h2{
+  font-size:58px;
+  line-height:1.1;
+  color:#0f172a;
+  margin-bottom:25px;
+  font-weight:500;
+}
+
+.apartment-content p{
+  font-size:17px;
+  line-height:1.9;
+  color:#475569;
+  margin-bottom:22px;
+}
+
+/* FEATURES */
+
+.apartment-features{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+  margin-top:35px;
+}
+
+.feature-card{
+  background:#ffffff;
+  padding:24px;
+  border-radius:18px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.06);
+  transition:0.3s ease;
+}
+
+.feature-card:hover{
+  transform:translateY(-6px);
+}
+
+.feature-card h4{
+  font-size:18px;
+  color:#0f172a;
+  margin-bottom:8px;
+}
+
+.feature-card span{
+  font-size:14px;
+  color:#64748b;
+}
+
+/* BUTTON */
+
+.apartment-btn{
+  display:inline-block;
+  margin-top:35px;
+  background:#16a34a;
+  color:#fff;
+  text-decoration:none;
+  padding:15px 34px;
+  border-radius:12px;
+  font-size:16px;
+  font-weight:600;
+  transition:0.3s ease;
+}
+
+.apartment-btn:hover{
+  background:#15803d;
+  transform:translateY(-4px);
+}
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media(max-width:991px){
+
+  .apartment-container{
+    grid-template-columns:1fr;
+    gap:40px;
+  }
+
+  .apartment-image img{
+    height:400px;
+  }
+
+  .apartment-content h2{
+    font-size:38px;
+  }
+
+  .apartment-features{
+    grid-template-columns:1fr;
+  }
+
+}
+
+@media(max-width:768px){
+
+  .apartment-section{
+    padding:70px 15px;
+  }
+
+  .apartment-content h2{
+    font-size:32px;
+  }
+
+  .apartment-content p{
+    font-size:15px;
+    line-height:1.8;
+  }
+
+  .apartment-btn{
+    width:100%;
+    text-align:center;
+  }
+
+}
+
+
+
+
+
+/* =====================================
+   MODERN NET SECTION
+===================================== */
+
+.modern-net-section{
+  padding:90px 20px;
+background: linear-gradient(135deg, #e2e5ea, #eef7f1);}
+
+.modern-net-container{
+  max-width:1250px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:60px;
+  align-items:center;
+}
+
+/* CONTENT */
+
+.modern-net-content{
+  position:relative;
+}
+
+.modern-tag{
+  display:inline-block;
+  background:#eff6ff;
+  color:#2563eb;
+  padding:10px 18px;
+  border-radius:50px;
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:2px;
+  margin-bottom:22px;
+}
+
+.modern-net-content h2{
+  font-size:56px;
+  line-height:1.1;
+  color:#0f172a;
+  margin-bottom:25px;
+  font-weight:500;
+}
+
+.modern-net-content p{
+  font-size:17px;
+  line-height:1.9;
+  color:#475569;
+  margin-bottom:22px;
+}
+
+/* FEATURES */
+
+.modern-features{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+  margin-top:35px;
+}
+
+.modern-box{
+  background:#f8fafc;
+  padding:22px;
+  border-radius:18px;
+  border:1px solid #e2e8f0;
+  transition:0.3s ease;
+}
+
+.modern-box:hover{
+  transform:translateY(-6px);
+  background:#eff6ff;
+}
+
+.modern-box h4{
+  font-size:18px;
+  color:#0f172a;
+  margin-bottom:8px;
+}
+
+.modern-box span{
+  font-size:14px;
+  color:#64748b;
+}
+
+/* BUTTON */
+
+.modern-btn{
+  display:inline-block;
+  margin-top:35px;
+  background:#2563eb;
+  color:#fff;
+  text-decoration:none;
+  padding:15px 34px;
+  border-radius:12px;
+  font-size:16px;
+  font-weight:600;
+  transition:0.3s ease;
+}
+
+.modern-btn:hover{
+  background:#1d4ed8;
+  transform:translateY(-4px);
+}
+
+/* IMAGE */
+
+.modern-net-image img{
+  width:100%;
+  height:500px;
+  object-fit:cover;
+  border-radius:28px;
+  box-shadow:0 15px 40px rgba(0,0,0,0.12);
+}
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media(max-width:991px){
+
+  .modern-net-container{
+    grid-template-columns:1fr;
+    gap:40px;
+  }
+
+  .modern-net-content h2{
+    font-size:38px;
+  }
+
+  .modern-features{
+    grid-template-columns:1fr;
+  }
+
+}
+
+@media(max-width:768px){
+
+  .modern-net-section{
+    padding:70px 15px;
+  }
+
+  .modern-net-content h2{
+    font-size:30px;
+  }
+
+  .modern-net-content p{
+    font-size:15px;
+    line-height:1.8;
+  }
+
+  .modern-net-image img{
+    height:250px;
+  }
+
+  .modern-btn{
+    width:100%;
+    text-align:center;
+  }
+
+}

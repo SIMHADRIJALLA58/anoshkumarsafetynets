@@ -140,7 +140,8 @@ nav a {
 
 /* Dropdown box */
 .mega-menu {
-  width: 300px;              /* smaller width */
+ min-width: 270px !important;
+width: max-content !important;             /* smaller width */
   max-height: 300px;         /* 🔥 LIMIT HEIGHT */
   overflow-y: auto;          /* 🔥 ENABLE SCROLL */
 
@@ -286,6 +287,7 @@ nav a {
 .dropdown-item {
   font-size: 14px;
   padding: 8px 16px;
+  white-space: nowrap;
 }
 
 .dropdown-item:hover {
@@ -638,13 +640,21 @@ body {
   background: #f9fafb;
 }
 
-.container {
+/* .container {
   display: flex;
   align-items: center;
   gap: 60px;
   max-width: 1200px;
   margin: auto;
+} */
+.about .container{
+  display:flex;
+  align-items:center;
+  gap:60px;
+  max-width:1200px;
+  margin:auto;
 }
+
 
 
 /* LEFT IMAGE */
@@ -973,7 +983,7 @@ body {
 
 .gx-gallery{
   padding:80px 20px;
-  background:#b2b9bf;
+  background:#e8eaec;
 }
 
 .gx-container{
@@ -2252,4 +2262,71 @@ img {
 }
 #id2{
   background-color: rgb(239, 240, 240);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== FINAL MOBILE NAVBAR FIX ===== */
+
+@media (max-width:768px){
+
+  /* RESET BOOTSTRAP CONTAINER */
+  .navbar .container{
+    display:flex !important;
+    align-items:center !important;
+    justify-content:space-between !important;
+    flex-wrap:nowrap !important;
+  }
+
+  /* BRAND AREA */
+  .navbar-brand{
+    display:flex !important;
+    align-items:center !important;
+    gap:10px;
+    width:auto !important;
+    max-width:75% !important;
+    overflow:hidden;
+    margin-right:0 !important;
+  }
+
+  /* LOGO */
+  .navbar-brand .logo{
+    width:42px !important;
+    height:42px !important;
+    object-fit:contain;
+    flex-shrink:0;
+  }
+
+  /* TITLE */
+  .brand-text{
+    font-size:16px !important;
+    font-weight:700;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    margin:0;
+  }
+
+  /* TOGGLE BUTTON */
+  .navbar-toggler{
+    margin-left:auto !important;
+    flex-shrink:0;
+    padding:6px 10px !important;
+  }
+
 }
