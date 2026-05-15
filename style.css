@@ -2330,3 +2330,28 @@ img {
   }
 
 }
+
+
+
+
+
+
+
+.call-now-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #00b894, #009688);
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 150, 136, 0.3);
+}
+
+.call-now-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 150, 136, 0.5);
+  background: linear-gradient(135deg, #009688, #00796b);
+}
