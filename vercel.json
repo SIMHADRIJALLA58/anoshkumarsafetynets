@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "anoshkumarsafetynets.vercel.app"
+        }
+      ],
+      "destination": "https://anoshkumarsafetynets.in/$1",
+      "permanent": true
+    }
+  ]
+}
